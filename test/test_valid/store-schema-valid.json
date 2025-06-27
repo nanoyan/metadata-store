@@ -1,0 +1,17 @@
+{
+  "id": "en1fr1",
+  "title": [
+    {
+      "lang": "de",
+      "value": "Metadatenprofile für Testaufgaben: Fremdsprachen Sek I"
+    }
+  ],
+  "mdOutDir": "docs",
+  "publisher": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "maintainer": "",
+  "creator": "",
+  "profiles": [
+    "test/profile-1.json",
+    "test/profile-2.json"
+  ]
+}
