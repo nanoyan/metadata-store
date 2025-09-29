@@ -61,8 +61,7 @@
         "required": [
           "itemValue",
           "status"
-        ],
-        "additionalProperties": false
+        ]
       }
     },
     "itemScales": {
@@ -117,8 +116,7 @@
               },
               "required": [
                 "itemId"
-              ],
-              "additionalProperties": false
+              ]
             },
             "minItems": 1
           }
@@ -128,8 +126,7 @@
           "name",
           "method",
           "items"
-        ],
-        "additionalProperties": false
+        ]
       }
     },
     "derivedScales": {
@@ -223,16 +220,14 @@
           "name",
           "source",
           "mappings"
-        ],
-        "additionalProperties": false
+        ]
       }
     }
   },
   "required": [
     "id",
     "items"
-  ],
-  "additionalProperties": false,
+  ]
   "$defs": {
     "languageTaggedText": {
       "description": "Language tagged text",
@@ -253,8 +248,7 @@
         "required": [
           "lang",
           "value"
-        ],
-        "additionalProperties": false
+        ]
       },
       "minItems": 1
     },
@@ -298,8 +292,7 @@
               "moduleId",
               "unitId",
               "sourceVariable"
-            ],
-            "additionalProperties": false
+            ]
           },
           "minItems": 1
         }
@@ -308,8 +301,7 @@
         "id",
         "name",
         "sources"
-      ],
-      "additionalProperties": false
+      ]
     },
     "methodParametersRatio": {
       "description": "Parameters for the processing method RATIO.",
@@ -322,8 +314,7 @@
       },
       "required": [
         "maxValue"
-      ],
-      "additionalProperties": false
+      ]
     }
   }
 }
