@@ -15,6 +15,9 @@
     "description": {
       "$ref": "#/$defs/languageTaggedText"
     },
+     "metadata": {
+      "$ref": "#/$defs/metadata"
+    },
     "items": {
       "description": "Definition of all items from all modules.",
       "type": "array",
@@ -229,9 +232,6 @@
     "id",
     "items"
   ],
-  "metadata": {
-    "$ref": "https://w3id.org/iqb/spec/metadata-values/3.0"
-  },
   "additionalProperties": false,
   "$defs": {
     "languageTaggedText": {
@@ -257,6 +257,9 @@
         "additionalProperties": false
       },
       "minItems": 1
+    },
+     "metadata": {
+      "$ref": "https://w3id.org/iqb/spec/metadata-values/3.0"
     },
     "item": {
       "type": "object",
