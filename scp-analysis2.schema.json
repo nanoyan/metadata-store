@@ -12,11 +12,11 @@
     "name": {
       "$ref": "#/$defs/languageTaggedText"
     },
+    "metadata":{
+      "#ref: "#/$defs/metadata"
+    },
     "description": {
       "$ref": "#/$defs/languageTaggedText"
-    },
-     "metadata": {
-      "$ref": "#/$defs/metadata"
     },
     "items": {
       "description": "Definition of all items from all modules.",
@@ -61,7 +61,8 @@
         "required": [
           "itemValue",
           "status"
-        ]
+        ],
+        "additionalProperties": false
       }
     },
     "itemScales": {
@@ -116,7 +117,8 @@
               },
               "required": [
                 "itemId"
-              ]
+              ],
+              "additionalProperties": false
             },
             "minItems": 1
           }
@@ -126,7 +128,8 @@
           "name",
           "method",
           "items"
-        ]
+        ],
+        "additionalProperties": false
       }
     },
     "derivedScales": {
@@ -198,7 +201,8 @@
                 "method",
                 "parameters",
                 "newValue"
-              ]
+              ],
+              "additionalProperties": false
             },
             "minItems": 1
           },
@@ -219,14 +223,16 @@
           "name",
           "source",
           "mappings"
-        ]
+        ],
+        "additionalProperties": false
       }
     }
   },
   "required": [
     "id",
     "items"
-  ]
+  ],
+  "additionalProperties": false,
   "$defs": {
     "languageTaggedText": {
       "description": "Language tagged text",
@@ -247,11 +253,12 @@
         "required": [
           "lang",
           "value"
-        ]
+        ],
+        "additionalProperties": false
       },
       "minItems": 1
     },
-     "metadata": {
+    "metadata": {
       "$ref": "https://w3id.org/iqb/spec/metadata-values/3.0"
     },
     "item": {
@@ -291,7 +298,8 @@
               "moduleId",
               "unitId",
               "sourceVariable"
-            ]
+            ],
+            "additionalProperties": false
           },
           "minItems": 1
         }
@@ -300,7 +308,8 @@
         "id",
         "name",
         "sources"
-      ]
+      ],
+      "additionalProperties": false
     },
     "methodParametersRatio": {
       "description": "Parameters for the processing method RATIO.",
@@ -313,7 +322,8 @@
       },
       "required": [
         "maxValue"
-      ]
+      ],
+      "additionalProperties": false
     }
   }
 }
