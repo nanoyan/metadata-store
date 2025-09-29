@@ -198,8 +198,7 @@
                 "method",
                 "parameters",
                 "newValue"
-              ],
-              "additionalProperties": false
+              ]
             },
             "minItems": 1
           },
