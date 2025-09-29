@@ -13,7 +13,7 @@
       "$ref": "#/$defs/languageTaggedText"
     },
     "metadata":{
-      "#ref": "#/$defs/metadata"
+      "$ref": "#/$defs/metadata"
     },
     "description": {
       "$ref": "#/$defs/languageTaggedText"
